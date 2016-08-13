@@ -74,6 +74,6 @@ gulp.task('watch',function(){
 
 
 
-gulp.task('default',['browserify']);
+gulp.task('default',['browserify']);    
 
 gulp.task('server',['watch','browserify','connect','es6','less']);
